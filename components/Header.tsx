@@ -21,18 +21,15 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-40 bg-header-bg border-b border-header-border">
       <div className="max-w-[1280px] mx-auto px-4 md:px-6 py-3 flex items-center justify-between gap-4">
-        <Link href="/" className="flex items-center gap-2 shrink-0">
+        <Link href="/" className="flex items-center shrink-0">
           <Image
             src="/Logo.png"
             alt="Wadhwa Textiles"
-            width={48}
-            height={48}
-            className="h-10 w-auto md:h-12"
+            width={56}
+            height={56}
+            className="h-10 w-auto md:h-14"
             priority
           />
-          <span className="text-xl md:text-2xl font-bold tracking-tight text-gold uppercase whitespace-nowrap">
-            Wadhwa Textiles
-          </span>
         </Link>
 
         <nav className="hidden lg:flex items-center gap-7">
