@@ -23,7 +23,7 @@ export default function Header() {
       <div className="max-w-[1280px] mx-auto px-4 md:px-6 py-3 flex items-center justify-between gap-4">
         <Link href="/" className="flex items-center shrink-0">
           <Image
-            src="/Logo.png"
+            src="/Logo-removebg-preview.png"
             alt="Wadhwa Textiles"
             width={56}
             height={56}
